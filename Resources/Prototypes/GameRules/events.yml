@@ -434,6 +434,17 @@
 # Critters
 
 - type: entity
+  id: VibedenDonation
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    earliestStart: 10
+    minimumPlayers: 1
+    weight: 1
+    duration: 1
+  - type: DonationEventRule
+
+- type: entity
   id: SlimesSpawnHorde
   parent: BaseStationEventShortDelay
   components:
@@ -453,6 +464,25 @@
       - id: MobAdultSlimesBlueAngry
       - id: MobAdultSlimesGreenAngry
       - id: MobAdultSlimesYellowAngry
+
+- type: entity
+  id: CarpSpawnHorde
+  parent: BaseStationEventShortDelay
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-vent-creatures-start-horde-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    earliestStart: 20
+    minimumPlayers: 15
+    weight: 5
+    duration: 5
+    maxDuration: 20
+  - type: VentHordeRule
+    table: !type:GroupSelector
+      rolls: 4, 8
+      children:
+      - id: MobCarp
 
 - type: entity
   id: SnakeSpawnHorde
