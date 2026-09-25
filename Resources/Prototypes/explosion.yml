@@ -14,6 +14,15 @@
   temperature: 800
 
 - type: explosion
+  id: VibedenDonation
+  damagePerIntensity: {}
+  tileBreakChance: [0]
+  tileBreakIntensity: [0]
+  lightColor: Orange
+  texturePath: /Textures/Effects/fire.rsi
+  fireStates: 3
+
+- type: explosion
   id: Clake
   damagePerIntensity:
     types:
