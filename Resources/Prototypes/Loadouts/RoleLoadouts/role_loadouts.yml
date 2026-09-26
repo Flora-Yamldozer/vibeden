@@ -45,8 +45,10 @@
   id: JobPassenger
   groups:
   - GroupTankHarness
+  - PassengerHead
   - PassengerJumpsuit
   - CommonBackpack
+  - PassengerBelt
   - PassengerNeck
   - PassengerFace
   - PassengerGloves
