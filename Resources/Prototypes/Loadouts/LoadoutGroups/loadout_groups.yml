@@ -198,16 +198,191 @@
 #  minLimit: 0
 #  loadouts: []
 
+- type: loadoutGroup
+  id: PassengerHead
+  name: loadout-group-passenger-head
+  minLimit: 0
+  loadouts:
+  - CaptainHead
+  - CaptainCap
+  - HoPHead
+  - BartenderHead
+  - BartenderBowler
+  - ChefHead
+  - ChaplainHead
+  - ChaplainNunHood
+  - ChaplainPlagueHat
+  - ChaplainWitchHat
+  - ChaplainWitchHatAlt
+  - JanitorHead
+  - BotanistHead
+  - BotanistBandana
+  - JesterHat
+  - JesterAltHat
+  - ClownMitre
+  - MimeHead
+  - MimeFrenchBeret
+  - MimeCap
+  - QuartermasterHead
+  - QuartermasterBeret
+  - CargoTechnicianHead
+  - ChiefEngineerHead
+  - ChiefEngineerBeret
+  - StationEngineerHardhatYellow
+  - StationEngineerHardhatOrange
+  - StationEngineerHardhatRed
+  - SeniorEngineerBeret
+  - ResearchDirectorBeret
+  - RoboticistCap
+  - SkullBandana
+  - ScientificBeret
+  - HeadofSecurityHead
+  - HeadofSecurityBeret
+  - WardenHead
+  - WardenBeret
+  - SecurityHelmet
+  - SecurityBeret
+  - SecurityHat
+  - TrooperHat
+  - DetectiveFedora
+  - DetectiveFedoraGrey
+  - ReporterPressFedora
+  - TramDriverHat
+  - ChiefMedicalOfficerBeret
+  - CMOMedicalHeadMirror
+  - MedicalBeret
+  - SeniorPhysicianBeret
+  - MedicalHeadMirror
+  - BlueSurgeryCap
+  - GreenSurgeryCap
+  - PurpleSurgeryCap
+  - NurseHat
+  - ParamedicHead
+
 # Civilian
 - type: loadoutGroup
   id: PassengerJumpsuit
   name: loadout-group-passenger-jumpsuit
   loadouts:
+  - CaptainJumpsuit
+  - CaptainJumpskirt
+  - CaptainFormalSuit
+  - CaptainFormalSkirt
+  - HoPJumpsuit
+  - HoPJumpskirt
   - GreyJumpsuit
   - GreyJumpskirt
   - AncientJumpsuit
   - RainbowJumpsuit
   - RainbowJumpskirt
+  - BartenderJumpsuit
+  - BartenderJumpskirt
+  - BartenderJumpsuitPurple
+  - ChefJumpsuit
+  - ChefJumpskirt
+  - LibrarianJumpsuit
+  - LibrarianJumpskirt
+  - CuratorJumpsuit
+  - CuratorJumpskirt
+  - LawyerJumpsuit
+  - LawyerJumpskirt
+  - LawyerJumpsuitBlue
+  - LawyerJumpskirtBlue
+  - LawyerJumpsuitPurple
+  - LawyerJumpskirtPurple
+  - LawyerJumpsuitRed
+  - LawyerJumpskirtRed
+  - LawyerJumpsuitGood
+  - LawyerJumpskirtGood
+  - ChaplainJumpsuit
+  - ChaplainJumpskirt
+  - ChaplainRobesLight
+  - ChaplainRobesDark
+  - JanitorJumpsuit
+  - JanitorJumpskirt
+  - BotanistJumpsuit
+  - BotanistJumpskirt
+  - BotanistOveralls
+  - ClownSuit
+  - ClownSkirt
+  - JesterSuit
+  - JesterAltSuit
+  - MimeJumpsuit
+  - MimeJumpskirt
+  - MusicianJumpsuit
+  - MusicianJumpskirt
+  - QuartermasterJumpsuit
+  - QuartermasterJumpskirt
+  - QuartermasterTurtleneck
+  - QuartermasterTurtleneckSkirt
+  - QuartermasterFormalSuit
+  - CargoTechnicianJumpsuit
+  - CargoTechnicianJumpskirt
+  - ChiefEngineerJumpsuit
+  - ChiefEngineerJumpskirt
+  - ChiefEngineerTurtleneck
+  - ChiefEngineerTurtleneckSkirt
+  - YellowJumpsuit
+  - YellowJumpskirt
+  - StationEngineerJumpsuit
+  - StationEngineerJumpskirt
+  - StationEngineerHazardsuit
+  - SeniorEngineerJumpsuit
+  - SeniorEngineerJumpskirt
+  - AtmosphericTechnicianJumpsuit
+  - AtmosphericTechnicianJumpskirt
+  - AtmosphericTechnicianJumpsuitCasual
+  - ResearchDirectorJumpsuit
+  - ResearchDirectorJumpskirt
+  - ScientistJumpsuit
+  - ScientistJumpskirt
+  - RoboticistJumpsuit
+  - RoboticistJumpskirt
+  - SeniorResearcherJumpsuit
+  - SeniorResearcherJumpskirt
+  - WhiteJumpsuit
+  - WhiteJumpskirt
+  - HeadofSecurityJumpsuit
+  - HeadofSecurityJumpskirt
+  - HeadofSecurityTurtleneck
+  - HeadofSecurityTurtleneckSkirt
+  - HeadofSecurityFormalSuit
+  - HeadofSecurityFormalSkirt
+  - WardenJumpsuit
+  - WardenJumpskirt
+  - SecurityJumpsuit
+  - SecurityJumpskirt
+  - SecurityJumpsuitGrey
+  - SecurityJumpskirtGrey
+  - SeniorOfficerJumpsuit
+  - SeniorOfficerJumpskirt
+  - TrooperUniform
+  - DetectiveJumpsuit
+  - DetectiveJumpskirt
+  - NoirJumpsuit
+  - NoirJumpskirt
+  - RedJumpsuit
+  - RedJumpskirt
+  - ReporterJumpsuit
+  - JournalistJumpsuit
+  - PsychologistJumpsuit
+  - PsychologistJumpskirt
+  - TramDriverJumpsuit
+  - ChiefMedicalOfficerJumpsuit
+  - ChiefMedicalOfficerJumpskirt
+  - ChiefMedicalOfficerTurtleneckJumpsuit
+  - ChiefMedicalOfficerTurtleneckJumpskirt
+  - MedicalDoctorJumpsuit
+  - MedicalDoctorJumpskirt
+  - SeniorPhysicianJumpsuit
+  - SeniorPhysicianJumpskirt
+  - MedicalBlueScrubs
+  - MedicalGreenScrubs
+  - MedicalPurpleScrubs
+  - ChemistJumpsuit
+  - ChemistJumpskirt
+  - ParamedicJumpsuit
+  - ParamedicJumpskirt
 
 - type: loadoutGroup
   id: PassengerFace
@@ -215,6 +390,12 @@
   minLimit: 0
   loadouts:
   - PassengerFace
+  - ChefMask
+  - ChaplainMask
+  - MimeMask
+  - MimeMaskSad
+  - MimeMaskScared
+  - SterileMask
 
 - type: loadoutGroup
   id: PassengerGloves
@@ -222,6 +403,13 @@
   minLimit: 0
   loadouts:
   - PassengerGloves
+  - JanitorRubberGloves
+  - OrangeGloves
+  - PurpleGloves
+  - LatexGloves
+  - RobohandsGloves
+  - TramDriverGlovesWhite
+  - TramDriverGlovesBlack
 
 - type: loadoutGroup
   id: CommonBackpack
@@ -230,6 +418,53 @@
   - CommonBackpack
   - CommonSatchel
   - CommonDuffel
+  - CaptainBackpack
+  - CaptainSatchel
+  - CaptainDuffel
+  - HoPBackpackIan
+  - BotanistBackpack
+  - BotanistSatchel
+  - BotanistDuffel
+  - ClownBackpack
+  - ClownSatchel
+  - ClownDuffel
+  - MimeBackpack
+  - MimeSatchel
+  - MimeDuffel
+  - CargoTechnicianBackpack
+  - CargoTechnicianSatchel
+  - CargoTechnicianDuffel
+  - SalvageSpecialistBackpack
+  - SalvageSpecialistSatchel
+  - SalvageSpecialistDuffel
+  - StationEngineerBackpack
+  - StationEngineerSatchel
+  - StationEngineerDuffel
+  - AtmosphericTechnicianBackpack
+  - AtmosphericTechnicianSatchel
+  - AtmosphericTechnicianDuffel
+  - ScientistBackpack
+  - ScientistSatchel
+  - ScientistDuffel
+  - SecurityBackpack
+  - SecuritySatchel
+  - SecurityDuffel
+  - MedicalDoctorBackpack
+  - MedicalDoctorSatchel
+  - MedicalDoctorDuffel
+  - ChemistBackpack
+  - ChemistSatchel
+  - ChemistDuffel
+
+- type: loadoutGroup
+  id: PassengerBelt
+  name: loadout-group-passenger-belt
+  minLimit: 0
+  loadouts:
+  - MimeSuspendersRed
+  - MimeSuspendersBlack
+  - SecurityBelt
+  - SecurityWebbing
 
 - type: loadoutGroup
   id: PassengerNeck
@@ -237,6 +472,25 @@
   minLimit: 0
   loadouts:
   - Mantle
+  - CaptainCloak
+  - CaptainCloakFormal
+  - CaptainMantle
+  - HoPCloak
+  - HoPMantle
+  - LawyerNeck
+  - ChaplainNeck
+  - QuartermasterCloak
+  - QuartermasterMantle
+  - ChiefEngineerCloak
+  - ChiefEngineerMantle
+  - ResearchDirectorMantle
+  - ResearchDirectorCloak
+  - ScientistTie
+  - HeadofSecurityCloak
+  - HeadofSecurityMantle
+  - DetectiveTie
+  - ChiefMedicalOfficerCloak
+  - ChiefMedicalOfficerMantle
 
 - type: loadoutGroup
   id: PassengerOuterClothing
@@ -244,6 +498,61 @@
   minLimit: 0
   loadouts:
   - PassengerWintercoat
+  - CaptainOuterClothing
+  - CaptainWintercoat
+  - HoPWintercoat
+  - BartenderVest
+  - BartenderApron
+  - BartenderWintercoat
+  - ChefApron
+  - ChefJacket
+  - ChefWintercoat
+  - ChaplainPlagueSuit
+  - ChaplainNunRobe
+  - ChaplainBlackHoodie
+  - ChaplainHoodie
+  - JanitorWintercoat
+  - BotanistApron
+  - BotanistWintercoat
+  - ClownRobes
+  - ClownWintercoat
+  - MimeWintercoat
+  - MusicianWintercoat
+  - QuartermasterWintercoat
+  - CargoTechnicianWintercoat
+  - SalvageSpecialistWintercoat
+  - ChiefEngineerWintercoat
+  - StationEngineerOuterVest
+  - StationEngineerWintercoat
+  - AtmosphericTechnicianWintercoat
+  - ResearchDirectorLabCoat
+  - ResearchDirectorWintercoat
+  - RegularLabCoat
+  - ScienceLabCoat
+  - ScienceWintercoat
+  - RoboticistLabCoat
+  - RoboticistWintercoat
+  - SeniorResearcherLabCoat
+  - HeadofSecurityCoat
+  - HeadofSecurityWinterCoat
+  - WardenCoat
+  - WardenArmoredWinterCoat
+  - ArmorVest
+  - ArmorVestSlim
+  - SecurityOfficerWintercoat
+  - DetectiveArmorVest
+  - DetectiveCoat
+  - DetectiveCoatGrey
+  - ReporterPressVest
+  - TramDriverSuit
+  - ChiefMedicalOfficerLabCoat
+  - ChiefMedicalOfficerWintercoat
+  - MedicalDoctorWintercoat
+  - SeniorPhysicianLabCoat
+  - ChemistLabCoat
+  - ChemistWintercoat
+  - ParamedicWindbreaker
+  - ParamedicWintercoat
 
 - type: loadoutGroup
   id: PassengerShoes
@@ -251,6 +560,21 @@
   loadouts:
   - BlackShoes
   - WinterBoots
+  - BlackSandals
+  - BrownSandals
+  - ClownShoes
+  - JesterShoes
+  - BrownShoes
+  - CargoWinterBoots
+  - SalvageBoots
+  - EngineeringWinterBoots
+  - WorkBoots
+  - WhiteShoes
+  - ScienceWinterBoots
+  - JackBoots
+  - SecurityWinterBoots
+  - MedicalWinterBoots
+  - BlueShoes
 
 #- type: loadoutGroup
 #  id: PassengerJobTrinkets
