@@ -1,0 +1,14 @@
+- type: loadout
+  id: ForumJannyJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitColorGrey
+
+- type: loadout
+  id: ForumJannyHead
+  equipment:
+    head: ClothingHeadHatCanadaBeanie
+
+- type: loadout
+  id: ForumJannyOuterClothing
+  equipment:
+    outerClothing: ClothingOuterVest

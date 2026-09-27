@@ -206,6 +206,9 @@ loadout-group-paramedic-outerclothing = Paramedic outer clothing
 loadout-group-paramedic-shoes = Paramedic shoes
 
 # Wildcards
+loadout-group-forum-janny-jumpsuit = Forum Janny jumpsuit
+loadout-group-forum-janny-head = Forum Janny headwear
+loadout-group-forum-janny-outerclothing = Forum Janny outerwear
 loadout-group-reporter-jumpsuit = Reporter jumpsuit
 loadout-group-reporter-head = Reporter hat
 loadout-group-reporter-outerclothing = Reporter vest

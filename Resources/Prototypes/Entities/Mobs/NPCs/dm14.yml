@@ -1,0 +1,50 @@
+- type: entity
+  parent: [ BaseSimpleMob, MobCombat, BaseMobDestructible ]
+  id: MobDM14
+  name: dm14
+  description: A hostile pixel-art creature that closes in and attacks.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/dm14.rsi
+    layers:
+    - state: dm14
+  - type: Icon
+    sprite: Mobs/dm14.rsi
+    state: dm14
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+    blackboard:
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.45,-0.30,0.45,0.30"
+        density: 80
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      40: Dead
+    showOverlays: false
+  - type: MeleeWeapon
+    angle: 0
+    animation: WeaponArcClaw
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg
+    damage:
+      types:
+        Blunt: 10
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 1.5
+    baseSprintSpeed: 2.5

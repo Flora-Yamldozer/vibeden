@@ -467,6 +467,21 @@
 
 # Wildcards
 - type: roleLoadout
+  id: JobForumJanny
+  groups:
+  - GroupTankHarness
+  - ForumJannyJumpsuit
+  - ForumJannyHead
+  - ForumJannyOuterClothing
+  - CommonBackpack
+  - Glasses
+  - AssistiveItems
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
+
+# Wildcards
+- type: roleLoadout
   id: JobReporter
   groups:
   - GroupTankHarness

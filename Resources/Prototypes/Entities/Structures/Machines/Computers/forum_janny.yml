@@ -1,0 +1,18 @@
+- type: entity
+  parent: BaseComputer
+  id: ComputerForumJanny
+  name: forum moderation computer
+  description: A computer used to review station forum post requests.
+  components:
+  - type: AccessReader
+    access:
+    - [ Service ]
+  - type: ForumJannyComputer
+  - type: ActivatableUI
+    key: enum.ForumJannyUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.ForumJannyUiKey.Key:
+        type: ForumJannyComputerBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface

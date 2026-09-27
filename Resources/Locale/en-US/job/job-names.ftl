@@ -39,6 +39,7 @@ job-name-psychologist = Psychologist
 job-name-qm = Quartermaster
 job-name-rd = Research Director
 job-name-reporter = Reporter
+job-name-forum-janny = Forum Janny
 job-name-research-assistant = Research Assistant
 job-name-salvagespec = Salvage Specialist
 job-name-scientist = Scientist

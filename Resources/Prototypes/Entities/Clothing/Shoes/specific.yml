@@ -272,3 +272,29 @@
       collection: FootstepSkates
       params:
         variation: 0.08
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesSkateboard
+  name: skateboard
+  description: "A small wheeled board that trades control for speed."
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Specific/skateboard.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Specific/skateboard.rsi
+    clothingVisuals:
+      shoes:
+      - state: equipped-FEET
+        offset: "0, 0.04"
+  - type: Item
+    sprite: Clothing/Shoes/Specific/skateboard.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.1
+  - type: Skates
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepSkates
+      params:
+        variation: 0.08

@@ -1,0 +1,12 @@
+<controls:FancyWindow xmlns="https://spacestation14.io"
+                      xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+                      Title="{Loc 'forum-janny-computer-title'}"
+                      SetSize="800 600">
+    <BoxContainer Orientation="Vertical" VerticalExpand="True" HorizontalExpand="True">
+        <Label Name="StatsLabel" Margin="10 8 10 4" />
+        <controls:Separator StyleClasses="LowDivider" />
+        <ScrollContainer VerticalExpand="True" HorizontalExpand="True" HScrollEnabled="False" Margin="10">
+            <BoxContainer Name="RequestsContainer" Orientation="Vertical" HorizontalExpand="True" />
+        </ScrollContainer>
+    </BoxContainer>
+</controls:FancyWindow>

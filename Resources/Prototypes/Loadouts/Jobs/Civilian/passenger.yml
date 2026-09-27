@@ -121,3 +121,8 @@
   id: WinterBoots
   equipment:
     shoes: ClothingShoesBootsWinter
+
+- type: loadout
+  id: PassengerSkateboard
+  equipment:
+    shoes: ClothingShoesSkateboard
