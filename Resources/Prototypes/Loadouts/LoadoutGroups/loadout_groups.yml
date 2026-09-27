@@ -575,6 +575,7 @@
   - SecurityWinterBoots
   - MedicalWinterBoots
   - BlueShoes
+  - PassengerSkateboard
 
 #- type: loadoutGroup
 #  id: PassengerJobTrinkets
@@ -1627,6 +1628,27 @@
   - EmergencyNitrogenSecurity
   - EmergencyOxygenSecurity
   - LoadoutSpeciesVoxNitrogen
+
+# Wildcards
+- type: loadoutGroup
+  id: ForumJannyJumpsuit
+  name: loadout-group-forum-janny-jumpsuit
+  loadouts:
+  - ForumJannyJumpsuit
+
+- type: loadoutGroup
+  id: ForumJannyHead
+  name: loadout-group-forum-janny-head
+  minLimit: 0
+  loadouts:
+  - ForumJannyHead
+
+- type: loadoutGroup
+  id: ForumJannyOuterClothing
+  name: loadout-group-forum-janny-outerclothing
+  minLimit: 0
+  loadouts:
+  - ForumJannyOuterClothing
 
 # Wildcards
 - type: loadoutGroup

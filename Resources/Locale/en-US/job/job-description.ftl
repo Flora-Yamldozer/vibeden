@@ -45,6 +45,7 @@ job-description-librarian = Keep the library organized. Provide the crew with ed
 job-description-mime = Entertain the crew with silent acts of performance art, and engage in light rivalry with the clown.
 job-description-musician = Entertain the crew with your unique musical talents.
 job-description-reporter = Inform and entertain the station's crew with wireless cameras and news bulletins.
+job-description-forum-janny = Review random forum post requests and decide which ones deserve to reach the station's public board.
 job-description-serviceworker = Assist the bar and kitchen with providing sustenance to the crew.
 job-description-tram-driver = Drive around a tram from stop to stop.
 

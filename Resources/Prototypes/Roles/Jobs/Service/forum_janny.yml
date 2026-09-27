@@ -1,0 +1,19 @@
+- type: job
+  id: ForumJanny
+  name: job-name-forum-janny
+  description: job-description-forum-janny
+  playTimeTracker: JobForumJanny
+  startingGear: ForumJannyGear
+  icon: "JobIconReporter"
+  supervisors: job-supervisors-service
+  guides: [ Service ]
+  access:
+  - Service
+  - Maintenance
+
+- type: startingGear
+  id: ForumJannyGear
+  equipment:
+    shoes: ClothingShoesColorBlack
+    id: ServiceWorkerPDA
+    ears: ClothingHeadsetService

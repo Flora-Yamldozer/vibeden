@@ -80,6 +80,9 @@
   id: JobJanitor
 
 - type: playTimeTracker
+  id: JobForumJanny
+
+- type: playTimeTracker
   id: JobLawyer
 
 - type: playTimeTracker

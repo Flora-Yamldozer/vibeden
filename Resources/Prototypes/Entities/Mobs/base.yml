@@ -48,6 +48,7 @@
   id: BaseMob
   components:
   - type: MobCollision
+  - type: SelfCombust
   - type: Physics
     bodyType: KinematicController
   - type: InputMover

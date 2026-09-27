@@ -1,0 +1,11 @@
+- type: localizedDataset
+  id: ForumJannyPostMessages
+  values:
+    prefix: forum-janny-post-message-
+    count: 12
+
+- type: localizedDataset
+  id: ForumJannyPostAuthors
+  values:
+    prefix: forum-janny-post-author-
+    count: 8
